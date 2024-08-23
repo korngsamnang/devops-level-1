@@ -88,34 +88,77 @@ AWS DynamoDB is a fully managed NoSQL database service that provides fast and pr
 #### Task 1: Create a VPC
 
 > VPCs.
-> ![](images/Screenshot%202024-08-22%20112336.png)
+> ![](images/vpc-lab/Screenshot%202024-08-22%20112336.png)
 
 
 
 #### Task 2: Create Subnets
 > Subnets.
-> ![](images/Screenshot%202024-08-22%20112401.png)
+> ![](images/vpc-lab/Screenshot%202024-08-22%20112401.png)
 
 > Route Tables.
-> ![](images/Screenshot%202024-08-22%20112415.png)
+> ![](images/vpc-lab/Screenshot%202024-08-22%20112415.png)
 
 > Internet Gateway.
-> ![](images/Screenshot%202024-08-22%20112432.png)
+> ![](images/vpc-lab/Screenshot%202024-08-22%20112432.png)
 #### Task 3: Create Security Groups
 
 
 > Security Groups.
-> ![](images/Screenshot%202024-08-22%20112457.png)
+> ![](images/vpc-lab/Screenshot%202024-08-22%20112457.png)
 
 #### Task 4: Launch an EC2 Instance
 
 > EC2 Instances.
-> ![](images/Screenshot%202024-08-22%20113855.png)
+> ![](images/vpc-lab/Screenshot%202024-08-22%20113855.png)
 
 
 
 > Open web browser via public IP.
-> ![](images/Screenshot%202024-08-22%20111605.png)
+> ![](images/vpc-lab/Screenshot%202024-08-22%20111605.png)
 
 > Open web browser via public DNS.
-> ![](images/Screenshot%202024-08-22%20111544.png)
+> ![](images/vpc-lab/Screenshot%202024-08-22%20111544.png)
+
+
+### EBS Lab
+#### Task 1: Create an EBS Volume
+
+> EBS Volumes.
+> ![](images/ebs-lab/Screenshot%202024-08-23%20095129.png)
+
+#### Task 2: Attach EBS Volume to EC2 Instance
+
+> Attached EBS Volume.
+> ![](images/ebs-lab/Screenshot%202024-08-23%20095228.png)
+> ![](images/ebs-lab/Screenshot%202024-08-23%20095402.png)
+
+
+#### Task 3: Connect to EC2 Instance Using SSH
+
+> SSH Connection.
+> ![](images/ebs-lab/Screenshot%202024-08-23%20100809.png)
+
+
+#### Task 4: Create and Configure File System
+
+
+> File System.
+> ![](images/ebs-lab/Screenshot%202024-08-23%20100830.png)
+> ![](images/ebs-lab/Screenshot%202024-08-23%20101516.png)
+
+
+#### Task 5: Create an EBS Snapshot
+
+> EBS Snapshot.
+> ![](images/ebs-lab/Screenshot%202024-08-23%20102648.png)
+
+> Delete file.txt.
+> ![](images/ebs-lab/Screenshot%202024-08-23%20102625.png)
+
+
+#### Task 6: Restore EBS Volume from Snapshot
+
+> Restored EBS Volume.
+> ![](images/ebs-lab/Screenshot%202024-08-23%20102935.png)
+> ![](images/ebs-lab/Screenshot%202024-08-23%20103107.png)
