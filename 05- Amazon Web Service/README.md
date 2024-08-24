@@ -162,3 +162,28 @@ AWS DynamoDB is a fully managed NoSQL database service that provides fast and pr
 > Restored EBS Volume.
 > ![](images/ebs-lab/Screenshot%202024-08-23%20102935.png)
 > ![](images/ebs-lab/Screenshot%202024-08-23%20103107.png)
+
+
+
+### RDS Lab
+#### Task 1: Create a Security Group for RDS
+
+> RDS Security Group.
+> ![](images/rds-lab/Screenshot%202024-08-24%20142500.png)
+
+
+#### Task 2: Create a DB Subnet Group
+
+> DB Subnet Group.
+> ![](images/rds-lab/Screenshot%202024-08-24%20142850.png)
+
+
+#### Task 3: Create an Amazon RDS Instance
+
+> RDS Instance.
+> ![](images/rds-lab/Screenshot%202024-08-24%20144356.png)
+
+#### Task 4: Connect to RDS Instance from EC2 Instance
+
+> Connect to RDS.
+> ![](images/rds-lab/Screenshot%202024-08-24%20151334.png)
