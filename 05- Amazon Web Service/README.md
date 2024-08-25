@@ -16,9 +16,11 @@
 14. [AWS Elastic File System (EFS)](#aws-elastic-file-system-efs)
 15. [AWS Relational Database Service (RDS)](#aws-relational-database-service-rds)
 16. [AWS DynamoDB](#aws-dynamodb)
-17. [VPC Lab](#vpc-lab)
-18. [EBS Lab](#ebs-lab)
-19. [RDS Lab](#rds-lab)
+17. [Labs](#labs)
+    - [VPC Lab](#vpc-lab)
+    - [EBS Lab](#ebs-lab)
+    - [RDS Lab](#rds-lab)
+    - [Auto Scaling Group and ELB Lab](#auto-scaling-group-and-elb-lab)
 
 
 ### What are web services?
@@ -83,6 +85,8 @@ AWS RDS simplifies the setup, operation, and scaling of relational databases in 
 
 ### AWS DynamoDB
 AWS DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.   
+
+### Labs
 
 ### VPC Lab
 #### Task 1: Create a VPC
@@ -187,3 +191,50 @@ AWS DynamoDB is a fully managed NoSQL database service that provides fast and pr
 
 > Connect to RDS.
 > ![](images/rds-lab/Screenshot%202024-08-24%20151334.png)
+
+
+### Auto Scaling Group and ELB Lab
+#### Task 1: Create an AMI for Auto Scaling
+
+> AMI for Auto Scaling.
+> ![](images/auto-scaling-and-elb-lab/Screenshot%202024-08-25%20144604.png)
+
+
+#### Task 2: Create a Load Balancer
+
+> Load Balancer.
+> ![](images/auto-scaling-and-elb-lab/Screenshot%202024-08-25%20145104.png)
+
+
+
+#### Task 3: Create an Auto Scaling Group
+
+> Auto Scaling Group.
+> ![](images/auto-scaling-and-elb-lab/Screenshot%202024-08-25%20150644.png)
+
+
+
+#### Task 4: Verify Load Balancer is Working
+
+> Load Balancer Working.
+> ![](images/auto-scaling-and-elb-lab/Screenshot%202024-08-25%20151534.png)
+
+> Target Group.
+> ![](images/auto-scaling-and-elb-lab/Screenshot%202024-08-25%20152031.png)
+
+> Load Balancer DNS.
+> ![](images/auto-scaling-and-elb-lab/Screenshot%202024-08-25%20152226.png)
+> ![](images/auto-scaling-and-elb-lab/Screenshot%202024-08-25%20152242.png)
+
+
+
+#### Task 5: Test Auto Scaling
+
+> Auto Scaling Test using CloudWatch.
+> ![](images/auto-scaling-and-elb-lab/Screenshot%202024-08-25%20153110.png)
+
+
+#### Task 6: Terminating Instances
+
+> Terminating Instances.
+> ![](images/auto-scaling-and-elb-lab/Screenshot%202024-08-25%20153204.png)
